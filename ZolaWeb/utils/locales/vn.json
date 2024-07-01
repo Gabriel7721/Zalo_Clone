@@ -1,0 +1,239 @@
+{
+  "common": {
+    "action": {
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "search": "Tìm kiếm",
+      "close": "Đóng",
+      "create": "Tạo"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "pending": "Đang chờ",
+      "success": "Thành công",
+      "error": "Lỗi"
+    }
+  },
+  "chats": {
+    "deleteSubAdminConfirm": "Bạn có chắc chắn muốn xóa quyền phó nhóm của thành viên này?",
+    "leader": "Trưởng nhóm",
+    "subLeader": "Phó nhóm",
+    "disbandGroupConfirm":"Mời tất cả mọi người rời nhóm và xóa tin nhắn?\nNhóm đã giải tán sẽ KHÔNG THỂ khôi phục.",
+    "member": "Thành viên",
+    "members": "thành viên",
+    "replyingTo": "Trả lời cho",
+    "addFriend": "Thêm bạn",
+    "makeFriend": "Kết bạn",
+    "yourProfile": "Hồ sơ của bạn",
+    "informationAccount": "Thông tin tài khoản",
+    "setting": "Cài đặt",
+    "addGroup": "Tạo nhóm",
+    "friendsSelected": "Bạn bè đã chọn",
+    "forwardMessage": "Chuyển tiếp tin nhắn",
+    "image": "Hình ảnh",
+    "video": "Video",
+    "file": "File",
+    "haveNotImageSended": "Chưa có hình ảnh được gửi",
+    "haveNotFileSended": "Chưa có file được gửi",
+    "haveNotVideoSended": "Chưa có video được gửi",
+    "messageWithdrawed": "Tin nhắn đã được thu hồi",
+    "model": {
+      "phone": "Số điện thoại",
+      "password": "Mật khẩu",
+      "nameGroup": "Tên nhóm",
+      "passwordNew": "Mật khẩu mới",
+      "findPeopleAndGroup": "Tìm kiếm bạn bè và nhóm",
+      "message": "Tin nhắn",
+      "members": "Thành viên"
+    },
+    "action": {
+      "changeAdmin": "Chuyển quyền trưởng nhóm",
+      "addSubAdmin": "Thêm phó nhóm",
+      "removeSubAdmin": "Xóa phó nhóm",
+      "reply": "Trả lời",
+      "copy": "Sao chép",
+      "exit": "Thoát",
+      "send": "Gửi",
+      "cancel": "Hủy",
+      "create": "Tạo",
+      "search": "Tìm kiếm",
+      "logout": "Đăng xuất",
+      "withdraw": "Thu hồi",
+      "delete": "Xóa",
+      "forward": "Chuyển tiếp",
+      "createGroup": "Tạo nhóm",
+      "deleteChatHistory": "Xóa lịch sử chat",
+      "successCreateGroup": "Tạo nhóm thành công",
+      "manageGroup": "Quản lý nhóm",
+      "disbandGroup": "Giải tán nhóm",
+      "leaderAndDeputy": "Trưởng & phó nhóm",
+      "leaveGroup": "Rời nhóm"
+    },
+    "message": {
+      "deleteSuccess": "Xóa thành công",
+      "deleteError": "Xóa thất bại",
+      "withdrawSuccess": "Thu hồi tin nhắn thành công",
+      "withdrawError": "Thu hồi tin nhắn thất bại",
+      "addFriendSuccess": "Gửi lời mời kết bạn thành công",
+      "addFriendFailed": "Gửi lời mời kết bạn thất bại",
+      "makeFriendSuccess": "Kết bạn thành công",
+      "makeFriendFailed": "Kết bạn thất bại",
+      "findFriendByName": "Vui lòng nhập tên bạn bè",
+      "friendNotFound": "Không tìm thấy bạn bè",
+      "forwardSuccess": "Chuyển tiếp tin nhắn thành công",
+      "forwardFailed": "Chuyển tiếp tin nhắn thất bại"
+    }
+  },
+  "login": {
+    "model": {
+      "phone": "Số điện thoại",
+      "password": "Mật khẩu",
+      "newToZola": "Bạn mới biết đến Zola?",
+      "welcomeToZola": "Chào mừng bạn đến với Zola",
+      "loginToZaloAccountToConnectToZolaWebApplication": "Đăng nhập vào tài khoản Zalo để kết nối với ứng dụng Zola Web"
+    },
+    "validation": {
+      "minPhone": "Số điện thoại phải có ít nhất 10 ký tự",
+      "maxPhone": "Số điện thoại phải có ít nhất 20 ký tự",
+      "phone": "Số điện thoại không hợp lệ",
+      "password": "Mật khẩu không hợp lệ",
+      "minPassword": "Mật khẩu phải có ít nhất 6 ký tự",
+      "regexPassword": "Mật khẩu phải có ít nhất 6 ký tự, bao gồm chữ cái, số và ký tự đặc biệt",
+      "requiredPhone": "Vui lòng nhập số điện thoại",
+      "requiredPassword": "Vui lòng nhập mật khẩu",
+      "passwordConfirmation": "Mật khẩu không khớp"
+    },
+    "message": {
+      "loginSuccess": "Đăng nhập thành công",
+      "loginFailed": "Đăng nhập thất bại"
+    },
+    "action": {
+      "login": "Đăng nhập",
+      "register": "Tạo tài khoản",
+      "forgotPassword": "Quên mật khẩu?"
+    }
+  },
+  "register":{
+    "model": {
+      "register": "Đăng ký",
+      "name": "Tên",
+      "phone": "Số điện thoại",
+      "password": "Mật khẩu",
+      "retypePassword": "Nhập lại mật khẩu",
+      "sex": "Giới tính",
+      "male": "Nam",
+      "female": "Nữ",
+      "birthday": "Ngày sinh",
+      "verifyAccount":"Một mã xác minh đã được gửi đến bạn. Vui lòng kiểm tra tin nhắn của bạn để xác minh tài khoản",
+      "alreadyHaveAccount": "Bạn đã có tài khoản?",
+      "createNewAccountZola": "Tạo tài khoản Zola",
+      "loginToZaloAccountToConnectToZolaWebApplication": "Đăng nhập vào tài khoản Zalo để kết nối với ứng dụng Zola Web"
+    },
+    "validation": {
+      "name": "Vui lòng nhập tên",
+      "minPhone": "Số điện thoại phải có ít nhất 10 ký tự",
+      "maxPhone": "Số điện thoại phải có ít nhất 20 ký tự",
+      "phone": "Số điện thoại không hợp lệ",
+      "password": "Mật khẩu không hợp lệ",
+      "minPassword": "Mật khẩu phải có ít nhất 6 ký tự",
+      "regexPassword": "Mật khẩu phải có ít nhất 6 ký tự, bao gồm chữ cái, số và ký tự đặc biệt",
+      "regexRetypePassword": "Mật khẩu không khớp",
+      "birthday": "Ngày sinh không hợp lệ"
+    },
+    "message": {
+      "registerSuccess": "Đăng ký thành công",
+      "registerFailed": "Đăng ký thất bại",
+      "sendingOTP":"Đã gửi mã xác minh",
+      "verifyAccountSuccess": "Xác minh tài khoản thành công",
+      "verifyAccountFailed": "Xác minh tài khoản thất bại",
+      "phoneInvalidOrExistPleaseTryAgain": "Số điện thoại không hợp lệ hoặc đã tồn tại.\nVui lòng thử lại"
+    },
+    "action": {
+      "confirm" : "Xác nhận",
+      "login": "Đăng nhập"
+    }
+
+  },
+  "forgotPassword":{
+    "model": {
+      "forgotPassword": "Quên mật khẩu",
+      "phone": "Số điện thoại",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "newPassword": "Mật khẩu mới",
+      "verifyAccount": "Xác minh tài khoản",
+      "verifyCode": "Mã xác minh",
+      "requiredOTP": "Vui lòng nhập mã xác minh"
+    },
+    "validation": {
+      "minPhone": "Số điện thoại phải có ít nhất 10 ký tự",
+      "maxPhone": "Số điện thoại phải có ít nhất 20 ký tự",
+      "phone": "Số điện thoại không hợp lệ",
+      "password": "Mật khẩu không hợp lệ",
+      "requiredPassword": "Vui lòng nhập mật khẩu",
+      "minPassword": "Mật khẩu phải có ít nhất 6 ký tự",
+      "regexPassword": "Mật khẩu phải có ít nhất 6 ký tự, bao gồm chữ cái, số và ký tự đặc biệt",
+      "confirmPasswordMatch": "Mật khẩu không khớp",
+      "otpLength" : "Mã xác minh phải có 6 chữ số"
+    },
+    "message": {
+      "forgotPasswordSuccess": "Đổi mật khẩu thành công",
+      "forgotPasswordFailed": "Đổi mật khẩu thất bại",
+      "sendOTPSuccess": "Gửi mã xác minh thành công",
+      "sendOTPFailed": "Gửi mã xác minh thất bại"
+    },
+    "action": {
+      "continue": "Tiếp tục",
+      "backToLogin": "Quay lại đăng nhập",
+      "confirm": "Xác nhận"
+    }
+  },
+  "profile": {
+    "editInformationAccount": "Chỉnh sửa thông tin tài khoản",
+    "informationUser": "Thông tin cá nhân",
+    "model": {
+      "name": "Tên hiển thị",
+      "phone": "Số điện thoại",
+      "sex":"Giới tính",
+      "birthday":"Ngày sinh"
+    },
+    "action": {
+      "edit": "Chỉnh sửa",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "exit": "Thoát",
+      "updateAvatar": "Cập nhật ảnh đại diện",
+      "updateCover": "Cập nhật ảnh bìa"
+    },
+    "message": {
+      "editProfileSuccess": "Chỉnh sửa thông tin thành công",
+      "editProfileFailed": "Chỉnh sửa thông tin thất bại",
+      "uploadAvatarSuccess": "Tải ảnh đại diện thành công",
+      "uploadAvatarFailed": "Tải ảnh đại diện thất bại",
+      "uploadCoverSuccess": "Tải ảnh bìa thành công",
+      "uploadCoverError": "Tải ảnh bìa thất bại"
+    }
+   },
+  "changePassword": {
+    "title": "Đổi mật khẩu",
+    "model": {
+      "oldPassword": "Mật khẩu cũ",
+      "newPassword": "Mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu"
+    },
+    "validation": {
+      "password": "Mật khẩu không hợp lệ",
+      "minPassword": "Mật khẩu phải có ít nhất 6 ký tự",
+      "regexPassword": "Mật khẩu phải có ít nhất 6 ký tự, bao gồm chữ cái, số và ký tự đặc biệt",
+      "confirmPasswordMatch": "Mật khẩu không khớp"
+    },
+    "message": {
+      "changePasswordSuccess": "Đổi mật khẩu thành công",
+      "changePasswordFailed": "Đổi mật khẩu thất bại"
+    },
+    "action": {
+      "save": "Lưu",
+      "cancel": "Hủy"
+    }
+  }
+}
